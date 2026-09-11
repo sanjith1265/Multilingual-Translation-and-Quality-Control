@@ -1,0 +1,103 @@
+{
+  "system_info": {
+    "os": "Windows 10",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "cpu_cores_physical": 4,
+    "cpu_cores_logical": 8,
+    "total_ram_gb": 7.79,
+    "python_version": "3.11.6"
+  },
+  "repetitions_per_test": 5,
+  "mean_latency_ms": 17.19,
+  "min_latency_ms": 9.17,
+  "max_latency_ms": 271.11,
+  "initial_rss_mb": 331.68,
+  "peak_rss_mb": 396.31,
+  "ram_delta_mb": 64.63,
+  "detailed_runs": [
+    {
+      "category": "Short caption",
+      "target_lang": "hi",
+      "char_length": 66,
+      "avg_latency_ms": 17.15,
+      "chars_per_sec": 3847.47
+    },
+    {
+      "category": "Short caption",
+      "target_lang": "es",
+      "char_length": 66,
+      "avg_latency_ms": 63.43,
+      "chars_per_sec": 1040.45
+    },
+    {
+      "category": "Short caption",
+      "target_lang": "ta",
+      "char_length": 66,
+      "avg_latency_ms": 9.87,
+      "chars_per_sec": 6684.78
+    },
+    {
+      "category": "Short caption",
+      "target_lang": "de",
+      "char_length": 66,
+      "avg_latency_ms": 14.94,
+      "chars_per_sec": 4419.09
+    },
+    {
+      "category": "Medium script",
+      "target_lang": "hi",
+      "char_length": 149,
+      "avg_latency_ms": 14.43,
+      "chars_per_sec": 10327.69
+    },
+    {
+      "category": "Medium script",
+      "target_lang": "es",
+      "char_length": 149,
+      "avg_latency_ms": 13.83,
+      "chars_per_sec": 10770.83
+    },
+    {
+      "category": "Medium script",
+      "target_lang": "ta",
+      "char_length": 149,
+      "avg_latency_ms": 10.79,
+      "chars_per_sec": 13807.65
+    },
+    {
+      "category": "Medium script",
+      "target_lang": "de",
+      "char_length": 149,
+      "avg_latency_ms": 14.45,
+      "chars_per_sec": 10308.59
+    },
+    {
+      "category": "Entity-rich",
+      "target_lang": "hi",
+      "char_length": 105,
+      "avg_latency_ms": 12.0,
+      "chars_per_sec": 8752.87
+    },
+    {
+      "category": "Entity-rich",
+      "target_lang": "es",
+      "char_length": 105,
+      "avg_latency_ms": 13.62,
+      "chars_per_sec": 7709.82
+    },
+    {
+      "category": "Entity-rich",
+      "target_lang": "ta",
+      "char_length": 105,
+      "avg_latency_ms": 10.11,
+      "chars_per_sec": 10384.4
+    },
+    {
+      "category": "Entity-rich",
+      "target_lang": "de",
+      "char_length": 105,
+      "avg_latency_ms": 11.64,
+      "chars_per_sec": 9017.41
+    }
+  ]
+}

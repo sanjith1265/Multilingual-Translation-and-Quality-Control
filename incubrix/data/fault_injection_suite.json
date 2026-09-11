@@ -1,0 +1,105 @@
+{
+  "description": "Fault injection suite for evaluating QC precision, recall, and review_queue flagging",
+  "injections": [
+    {
+      "id": "fault-empty-01",
+      "source_text": "Follow us on Instagram @creator for daily updates.",
+      "translated_text": "",
+      "source_lang": "en",
+      "target_lang": "hi",
+      "expected_entities": ["@creator"],
+      "expected_fault": "EMPTY_OUTPUT",
+      "should_pass": false
+    },
+    {
+      "id": "fault-empty-02",
+      "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+      "translated_text": "   \n\t  ",
+      "source_lang": "en",
+      "target_lang": "es",
+      "expected_entities": ["https://incubrix.com"],
+      "expected_fault": "EMPTY_OUTPUT",
+      "should_pass": false
+    },
+    {
+      "id": "fault-repeat-01",
+      "source_text": "This video editing workflow saves creators hours every week.",
+      "translated_text": "यह संपादन यह संपादन यह संपादन यह संपादन यह संपादन कार्यप्रवाह है।",
+      "source_lang": "en",
+      "target_lang": "hi",
+      "expected_entities": [],
+      "expected_fault": "REPETITIVE_LOOP",
+      "should_pass": false
+    },
+    {
+      "id": "fault-repeat-02",
+      "source_text": "Great tutorial on generative artificial intelligence.",
+      "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+      "source_lang": "en",
+      "target_lang": "fr",
+      "expected_entities": [],
+      "expected_fault": "REPETITIVE_LOOP",
+      "should_pass": false
+    },
+    {
+      "id": "fault-wrong-lang-01",
+      "source_text": "The secret to growing your audience is consistency and quality.",
+      "translated_text": "The secret to growing your audience is consistency and quality.",
+      "source_lang": "en",
+      "target_lang": "hi",
+      "expected_entities": [],
+      "expected_fault": "WRONG_LANGUAGE",
+      "should_pass": false
+    },
+    {
+      "id": "fault-wrong-lang-02",
+      "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+      "translated_text": "Welcome to all our new creators on the platform.",
+      "source_lang": "fr",
+      "target_lang": "ta",
+      "expected_entities": [],
+      "expected_fault": "WRONG_LANGUAGE",
+      "should_pass": false
+    },
+    {
+      "id": "fault-entity-corrupt-01",
+      "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+      "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+      "source_lang": "en",
+      "target_lang": "hi",
+      "expected_entities": ["SAVE50", "$50", "https://incubrix.com/deal"],
+      "expected_fault": "MISSING_ENTITIES",
+      "should_pass": false
+    },
+    {
+      "id": "fault-entity-corrupt-02",
+      "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+      "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+      "source_lang": "en",
+      "target_lang": "es",
+      "expected_entities": ["support@incubrix.com", "1-800-555-0199"],
+      "expected_fault": "MISSING_ENTITIES",
+      "should_pass": false
+    },
+    {
+      "id": "clean-sample-01",
+      "source_text": "Hello world from @incubrix with #trending 2026!",
+      "translated_text": "नमस्ते दुनिया @incubrix की ओर से #trending 2026 के साथ!",
+      "source_lang": "en",
+      "target_lang": "hi",
+      "expected_entities": ["@incubrix", "#trending", "2026"],
+      "expected_fault": null,
+      "should_pass": true
+    },
+    {
+      "id": "clean-sample-02",
+      "source_text": "Visitez notre site https://incubrix.com pour 50% de réduction.",
+      "translated_text": "Visite nuestro sitio https://incubrix.com para 50% de descuento.",
+      "source_lang": "fr",
+      "target_lang": "es",
+      "expected_entities": ["https://incubrix.com", "50%"],
+      "expected_fault": null,
+      "should_pass": true
+    }
+  ]
+}
