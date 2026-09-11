@@ -1,0 +1,2566 @@
+[
+  {
+    "review_id": "5d4e268b",
+    "segment_id": "single-001",
+    "source_text": "Hello world from @incubrix!",
+    "translated_text": "Hola mundo from @incubrix!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: pt)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: pt)",
+    "created_at": "2026-09-10T18:57:12.175082"
+  },
+  {
+    "review_id": "a8ecdf90",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-10T19:03:45.131720"
+  },
+  {
+    "review_id": "12093568",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-10T19:03:45.141332"
+  },
+  {
+    "review_id": "97ad94e8",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:03:51.096072"
+  },
+  {
+    "review_id": "a1d57b53",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:03:51.108203"
+  },
+  {
+    "review_id": "3f7a4759",
+    "segment_id": "fault-repeat-02",
+    "source_text": "Great tutorial on generative artificial intelligence.",
+    "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: it)",
+      "SEMANTIC_DRIFT (similarity: 0.079)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.288. Flags: WRONG_LANGUAGE (detected: it), SEMANTIC_DRIFT (similarity: 0.079), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T16:03:52.328455"
+  },
+  {
+    "review_id": "c1f64fd6",
+    "segment_id": "fault-wrong-lang-01",
+    "source_text": "The secret to growing your audience is consistency and quality.",
+    "translated_text": "The secret to growing your audience is consistency and quality.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:03:52.340129"
+  },
+  {
+    "review_id": "e3ff2ce4",
+    "segment_id": "fault-wrong-lang-02",
+    "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+    "translated_text": "Welcome to all our new creators on the platform.",
+    "source_lang": "fr",
+    "target_lang": "ta",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.103)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.336. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.103)",
+    "created_at": "2026-09-11T16:03:52.353060"
+  },
+  {
+    "review_id": "64de00f6",
+    "segment_id": "fault-entity-corrupt-01",
+    "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+    "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "MISSING_ENTITIES:3"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.35. Flags: SEMANTIC_DRIFT (similarity: 0.0), MISSING_ENTITIES:3",
+    "created_at": "2026-09-11T16:03:52.362502"
+  },
+  {
+    "review_id": "b2178884",
+    "segment_id": "fault-entity-corrupt-02",
+    "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+    "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.065)",
+      "MISSING_ENTITIES:2"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.373. Flags: SEMANTIC_DRIFT (similarity: 0.065), MISSING_ENTITIES:2",
+    "created_at": "2026-09-11T16:03:52.378268"
+  },
+  {
+    "review_id": "c89d1043",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:06:29.874920"
+  },
+  {
+    "review_id": "b4e622f5",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:06:29.886746"
+  },
+  {
+    "review_id": "38294d74",
+    "segment_id": "fault-repeat-02",
+    "source_text": "Great tutorial on generative artificial intelligence.",
+    "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: it)",
+      "SEMANTIC_DRIFT (similarity: 0.079)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.288. Flags: WRONG_LANGUAGE (detected: it), SEMANTIC_DRIFT (similarity: 0.079), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T16:06:30.248772"
+  },
+  {
+    "review_id": "ee2c356d",
+    "segment_id": "fault-wrong-lang-01",
+    "source_text": "The secret to growing your audience is consistency and quality.",
+    "translated_text": "The secret to growing your audience is consistency and quality.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:06:30.257751"
+  },
+  {
+    "review_id": "0fa050b0",
+    "segment_id": "fault-wrong-lang-02",
+    "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+    "translated_text": "Welcome to all our new creators on the platform.",
+    "source_lang": "fr",
+    "target_lang": "ta",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.103)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.336. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.103)",
+    "created_at": "2026-09-11T16:06:30.266847"
+  },
+  {
+    "review_id": "ccb189d7",
+    "segment_id": "fault-entity-corrupt-01",
+    "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+    "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "MISSING_ENTITIES:3"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.35. Flags: SEMANTIC_DRIFT (similarity: 0.0), MISSING_ENTITIES:3",
+    "created_at": "2026-09-11T16:06:30.276550"
+  },
+  {
+    "review_id": "f640d09b",
+    "segment_id": "fault-entity-corrupt-02",
+    "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+    "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.065)",
+      "MISSING_ENTITIES:2"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.373. Flags: SEMANTIC_DRIFT (similarity: 0.065), MISSING_ENTITIES:2",
+    "created_at": "2026-09-11T16:06:30.287225"
+  },
+  {
+    "review_id": "fa72e0f7",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:44:00.023342"
+  },
+  {
+    "review_id": "0588e3f7",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:44:00.032129"
+  },
+  {
+    "review_id": "b74af5e5",
+    "segment_id": "fault-repeat-02",
+    "source_text": "Great tutorial on generative artificial intelligence.",
+    "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: it)",
+      "SEMANTIC_DRIFT (similarity: 0.292)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.362. Flags: WRONG_LANGUAGE (detected: it), SEMANTIC_DRIFT (similarity: 0.292), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T16:47:42.334497"
+  },
+  {
+    "review_id": "28cd12df",
+    "segment_id": "fault-wrong-lang-01",
+    "source_text": "The secret to growing your audience is consistency and quality.",
+    "translated_text": "The secret to growing your audience is consistency and quality.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:47:42.780085"
+  },
+  {
+    "review_id": "8410092a",
+    "segment_id": "fault-wrong-lang-02",
+    "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+    "translated_text": "Welcome to all our new creators on the platform.",
+    "source_lang": "fr",
+    "target_lang": "ta",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.103)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.336. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.103)",
+    "created_at": "2026-09-11T16:47:42.791615"
+  },
+  {
+    "review_id": "6a87d31e",
+    "segment_id": "fault-entity-corrupt-01",
+    "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+    "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.112)",
+      "MISSING_ENTITIES:3"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.389. Flags: SEMANTIC_DRIFT (similarity: 0.112), MISSING_ENTITIES:3",
+    "created_at": "2026-09-11T16:47:42.934128"
+  },
+  {
+    "review_id": "e215085f",
+    "segment_id": "fault-entity-corrupt-02",
+    "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+    "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.143)",
+      "MISSING_ENTITIES:2"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.4. Flags: SEMANTIC_DRIFT (similarity: 0.143), MISSING_ENTITIES:2",
+    "created_at": "2026-09-11T16:48:51.130373"
+  },
+  {
+    "review_id": "9733d94d",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:54:36.169790"
+  },
+  {
+    "review_id": "898e1d56",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T16:54:36.185943"
+  },
+  {
+    "review_id": "19bb5cfd",
+    "segment_id": "fault-repeat-01",
+    "source_text": "This video editing workflow saves creators hours every week.",
+    "translated_text": "यह संपादन यह संपादन यह संपादन यह संपादन यह संपादन कार्यप्रवाह है।",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.152)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: SEMANTIC_DRIFT (similarity: 0.152), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T16:54:51.335058"
+  },
+  {
+    "review_id": "06c21780",
+    "segment_id": "fault-repeat-02",
+    "source_text": "Great tutorial on generative artificial intelligence.",
+    "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: it)",
+      "SEMANTIC_DRIFT (similarity: 0.292)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.362. Flags: WRONG_LANGUAGE (detected: it), SEMANTIC_DRIFT (similarity: 0.292), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T16:54:56.290771"
+  },
+  {
+    "review_id": "a925c33d",
+    "segment_id": "fault-wrong-lang-01",
+    "source_text": "The secret to growing your audience is consistency and quality.",
+    "translated_text": "The secret to growing your audience is consistency and quality.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:54:56.575376"
+  },
+  {
+    "review_id": "cbf8fd7b",
+    "segment_id": "fault-wrong-lang-02",
+    "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+    "translated_text": "Welcome to all our new creators on the platform.",
+    "source_lang": "fr",
+    "target_lang": "ta",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.103)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.336. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.103)",
+    "created_at": "2026-09-11T16:54:56.588911"
+  },
+  {
+    "review_id": "8c6ba3a0",
+    "segment_id": "fault-entity-corrupt-01",
+    "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+    "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.112)",
+      "MISSING_ENTITIES:3"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.389. Flags: SEMANTIC_DRIFT (similarity: 0.112), MISSING_ENTITIES:3",
+    "created_at": "2026-09-11T16:54:56.923151"
+  },
+  {
+    "review_id": "1b37ead3",
+    "segment_id": "fault-entity-corrupt-02",
+    "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+    "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.143)",
+      "MISSING_ENTITIES:2"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.4. Flags: SEMANTIC_DRIFT (similarity: 0.143), MISSING_ENTITIES:2",
+    "created_at": "2026-09-11T16:55:01.959112"
+  },
+  {
+    "review_id": "e8a7e8fd",
+    "segment_id": "bench-hi-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.088316"
+  },
+  {
+    "review_id": "3b47cf9b",
+    "segment_id": "bench-hi-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.098327"
+  },
+  {
+    "review_id": "4448f783",
+    "segment_id": "bench-hi-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.107611"
+  },
+  {
+    "review_id": "483e3b94",
+    "segment_id": "bench-hi-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.114740"
+  },
+  {
+    "review_id": "41034c0b",
+    "segment_id": "bench-hi-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.122699"
+  },
+  {
+    "review_id": "834d27b4",
+    "segment_id": "bench-es-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.468895"
+  },
+  {
+    "review_id": "f06d8e32",
+    "segment_id": "bench-es-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.482248"
+  },
+  {
+    "review_id": "05198ae4",
+    "segment_id": "bench-es-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.493424"
+  },
+  {
+    "review_id": "96eb2298",
+    "segment_id": "bench-es-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.503375"
+  },
+  {
+    "review_id": "63477a02",
+    "segment_id": "bench-es-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.514007"
+  },
+  {
+    "review_id": "9cf66f55",
+    "segment_id": "bench-ta-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.527333"
+  },
+  {
+    "review_id": "dea9d1a0",
+    "segment_id": "bench-ta-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.536960"
+  },
+  {
+    "review_id": "0f8e0a29",
+    "segment_id": "bench-ta-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.617602"
+  },
+  {
+    "review_id": "da9ee60f",
+    "segment_id": "bench-ta-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.661032"
+  },
+  {
+    "review_id": "1af41e3e",
+    "segment_id": "bench-ta-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.675611"
+  },
+  {
+    "review_id": "44702e4b",
+    "segment_id": "bench-de-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.742130"
+  },
+  {
+    "review_id": "5ff27e81",
+    "segment_id": "bench-de-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.751112"
+  },
+  {
+    "review_id": "32091dfd",
+    "segment_id": "bench-de-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.761413"
+  },
+  {
+    "review_id": "c66839cd",
+    "segment_id": "bench-de-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.770963"
+  },
+  {
+    "review_id": "448ee078",
+    "segment_id": "bench-de-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.780829"
+  },
+  {
+    "review_id": "9e2f4a31",
+    "segment_id": "bench-hi-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.788669"
+  },
+  {
+    "review_id": "8e5691b8",
+    "segment_id": "bench-hi-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.796672"
+  },
+  {
+    "review_id": "7b5db236",
+    "segment_id": "bench-hi-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.805754"
+  },
+  {
+    "review_id": "b39923cc",
+    "segment_id": "bench-hi-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.817479"
+  },
+  {
+    "review_id": "2f1d259b",
+    "segment_id": "bench-hi-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.833280"
+  },
+  {
+    "review_id": "14231165",
+    "segment_id": "bench-es-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.851840"
+  },
+  {
+    "review_id": "daae9bfb",
+    "segment_id": "bench-es-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.868975"
+  },
+  {
+    "review_id": "c3531f2a",
+    "segment_id": "bench-es-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.893316"
+  },
+  {
+    "review_id": "a4b3c1fa",
+    "segment_id": "bench-es-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.912142"
+  },
+  {
+    "review_id": "91948316",
+    "segment_id": "bench-es-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:28.932689"
+  },
+  {
+    "review_id": "c0047aa2",
+    "segment_id": "bench-ta-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.944572"
+  },
+  {
+    "review_id": "a828e5ee",
+    "segment_id": "bench-ta-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.958698"
+  },
+  {
+    "review_id": "8b68a261",
+    "segment_id": "bench-ta-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.975181"
+  },
+  {
+    "review_id": "afd2506e",
+    "segment_id": "bench-ta-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:28.990863"
+  },
+  {
+    "review_id": "b7a7f43e",
+    "segment_id": "bench-ta-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.003093"
+  },
+  {
+    "review_id": "ee264948",
+    "segment_id": "bench-de-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.024049"
+  },
+  {
+    "review_id": "ae06be0e",
+    "segment_id": "bench-de-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.043322"
+  },
+  {
+    "review_id": "06fb1b27",
+    "segment_id": "bench-de-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.061092"
+  },
+  {
+    "review_id": "3fdc4101",
+    "segment_id": "bench-de-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.081102"
+  },
+  {
+    "review_id": "8f04ed36",
+    "segment_id": "bench-de-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.098422"
+  },
+  {
+    "review_id": "709780c3",
+    "segment_id": "bench-hi-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.113669"
+  },
+  {
+    "review_id": "0f5a7d4e",
+    "segment_id": "bench-hi-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.125261"
+  },
+  {
+    "review_id": "6fe89b72",
+    "segment_id": "bench-hi-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.140896"
+  },
+  {
+    "review_id": "3dd83de3",
+    "segment_id": "bench-hi-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.153312"
+  },
+  {
+    "review_id": "1a1b5062",
+    "segment_id": "bench-hi-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.166781"
+  },
+  {
+    "review_id": "df0202f4",
+    "segment_id": "bench-es-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.179840"
+  },
+  {
+    "review_id": "3eeca4ac",
+    "segment_id": "bench-es-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.192132"
+  },
+  {
+    "review_id": "2dd9c548",
+    "segment_id": "bench-es-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.205678"
+  },
+  {
+    "review_id": "768319f4",
+    "segment_id": "bench-es-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.217553"
+  },
+  {
+    "review_id": "0223b424",
+    "segment_id": "bench-es-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.230117"
+  },
+  {
+    "review_id": "9c9fc08d",
+    "segment_id": "bench-ta-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.240919"
+  },
+  {
+    "review_id": "edd8a3a0",
+    "segment_id": "bench-ta-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.250825"
+  },
+  {
+    "review_id": "3617de98",
+    "segment_id": "bench-ta-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.264127"
+  },
+  {
+    "review_id": "d2d21dc6",
+    "segment_id": "bench-ta-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.274363"
+  },
+  {
+    "review_id": "f80123dc",
+    "segment_id": "bench-ta-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T16:55:29.284065"
+  },
+  {
+    "review_id": "fa46c108",
+    "segment_id": "bench-de-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.296573"
+  },
+  {
+    "review_id": "b95408e4",
+    "segment_id": "bench-de-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.307777"
+  },
+  {
+    "review_id": "37ecb9b1",
+    "segment_id": "bench-de-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.321974"
+  },
+  {
+    "review_id": "b176a7ac",
+    "segment_id": "bench-de-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.333081"
+  },
+  {
+    "review_id": "547d0692",
+    "segment_id": "bench-de-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T16:55:29.344021"
+  },
+  {
+    "review_id": "8735cf7e",
+    "segment_id": "cli-01",
+    "source_text": "Hello world! Follow @channel for 10% discount at https://incubrix.com #launch",
+    "translated_text": "नमस्ते दुनिया! Follow @channel for 10% discount at https://incubrix.com #launch",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:00:11.548681"
+  },
+  {
+    "review_id": "43374b97",
+    "segment_id": "cli-01",
+    "source_text": "Hello world!",
+    "translated_text": "Hola mundo!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: pt)",
+      "SEMANTIC_DRIFT (similarity: 0.0)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.335. Flags: WRONG_LANGUAGE (detected: pt), SEMANTIC_DRIFT (similarity: 0.0)",
+    "created_at": "2026-09-11T17:01:12.704243"
+  },
+  {
+    "review_id": "aea50eb4",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T17:34:54.542543"
+  },
+  {
+    "review_id": "7e0189f4",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T17:34:54.556033"
+  },
+  {
+    "review_id": "b3fe9779",
+    "segment_id": "fault-repeat-01",
+    "source_text": "This video editing workflow saves creators hours every week.",
+    "translated_text": "यह संपादन यह संपादन यह संपादन यह संपादन यह संपादन कार्यप्रवाह है।",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.575. Flags: SEMANTIC_DRIFT (similarity: 0.0), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T17:34:54.569261"
+  },
+  {
+    "review_id": "a097d6e2",
+    "segment_id": "fault-repeat-02",
+    "source_text": "Great tutorial on generative artificial intelligence.",
+    "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: it)",
+      "SEMANTIC_DRIFT (similarity: 0.079)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.288. Flags: WRONG_LANGUAGE (detected: it), SEMANTIC_DRIFT (similarity: 0.079), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T17:34:54.944823"
+  },
+  {
+    "review_id": "008c1723",
+    "segment_id": "fault-wrong-lang-01",
+    "source_text": "The secret to growing your audience is consistency and quality.",
+    "translated_text": "The secret to growing your audience is consistency and quality.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:34:54.955631"
+  },
+  {
+    "review_id": "2fc51d94",
+    "segment_id": "fault-wrong-lang-02",
+    "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+    "translated_text": "Welcome to all our new creators on the platform.",
+    "source_lang": "fr",
+    "target_lang": "ta",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.103)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.336. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.103)",
+    "created_at": "2026-09-11T17:34:54.966149"
+  },
+  {
+    "review_id": "bb8b8dd0",
+    "segment_id": "fault-entity-corrupt-01",
+    "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+    "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "MISSING_ENTITIES:3"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.35. Flags: SEMANTIC_DRIFT (similarity: 0.0), MISSING_ENTITIES:3",
+    "created_at": "2026-09-11T17:34:54.978261"
+  },
+  {
+    "review_id": "70e833e8",
+    "segment_id": "fault-entity-corrupt-02",
+    "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+    "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.065)",
+      "MISSING_ENTITIES:2"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.373. Flags: SEMANTIC_DRIFT (similarity: 0.065), MISSING_ENTITIES:2",
+    "created_at": "2026-09-11T17:34:54.992358"
+  },
+  {
+    "review_id": "541c3d13",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T17:40:05.620930"
+  },
+  {
+    "review_id": "ed8dee3d",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T17:40:05.656338"
+  },
+  {
+    "review_id": "f1295bfe",
+    "segment_id": "fault-repeat-01",
+    "source_text": "This video editing workflow saves creators hours every week.",
+    "translated_text": "यह संपादन यह संपादन यह संपादन यह संपादन यह संपादन कार्यप्रवाह है।",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.575. Flags: SEMANTIC_DRIFT (similarity: 0.0), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T17:40:05.667176"
+  },
+  {
+    "review_id": "53d0ce69",
+    "segment_id": "fault-repeat-02",
+    "source_text": "Great tutorial on generative artificial intelligence.",
+    "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: it)",
+      "SEMANTIC_DRIFT (similarity: 0.079)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.288. Flags: WRONG_LANGUAGE (detected: it), SEMANTIC_DRIFT (similarity: 0.079), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T17:40:05.997885"
+  },
+  {
+    "review_id": "b6f5bb3e",
+    "segment_id": "fault-wrong-lang-01",
+    "source_text": "The secret to growing your audience is consistency and quality.",
+    "translated_text": "The secret to growing your audience is consistency and quality.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:40:06.008711"
+  },
+  {
+    "review_id": "e164e378",
+    "segment_id": "fault-wrong-lang-02",
+    "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+    "translated_text": "Welcome to all our new creators on the platform.",
+    "source_lang": "fr",
+    "target_lang": "ta",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.103)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.336. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.103)",
+    "created_at": "2026-09-11T17:40:06.017450"
+  },
+  {
+    "review_id": "a3d2844c",
+    "segment_id": "fault-entity-corrupt-01",
+    "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+    "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "MISSING_ENTITIES:3"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.35. Flags: SEMANTIC_DRIFT (similarity: 0.0), MISSING_ENTITIES:3",
+    "created_at": "2026-09-11T17:40:06.027445"
+  },
+  {
+    "review_id": "b6dd47b7",
+    "segment_id": "fault-entity-corrupt-02",
+    "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+    "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.065)",
+      "MISSING_ENTITIES:2"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.373. Flags: SEMANTIC_DRIFT (similarity: 0.065), MISSING_ENTITIES:2",
+    "created_at": "2026-09-11T17:40:06.038802"
+  },
+  {
+    "review_id": "05baf63d",
+    "segment_id": "fault-empty-01",
+    "source_text": "Follow us on Instagram @creator for daily updates.",
+    "translated_text": "",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T17:40:40.743243"
+  },
+  {
+    "review_id": "33fc2e9d",
+    "segment_id": "fault-empty-02",
+    "source_text": "Sign up for our newsletter at https://incubrix.com today!",
+    "translated_text": "   \n\t  ",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.0)",
+      "EMPTY_OUTPUT"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.0. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.0), EMPTY_OUTPUT",
+    "created_at": "2026-09-11T17:40:40.753847"
+  },
+  {
+    "review_id": "e83882a9",
+    "segment_id": "fault-repeat-01",
+    "source_text": "This video editing workflow saves creators hours every week.",
+    "translated_text": "यह संपादन यह संपादन यह संपादन यह संपादन यह संपादन कार्यप्रवाह है।",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.152)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: SEMANTIC_DRIFT (similarity: 0.152), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T17:40:54.417153"
+  },
+  {
+    "review_id": "894f5b26",
+    "segment_id": "fault-repeat-02",
+    "source_text": "Great tutorial on generative artificial intelligence.",
+    "translated_text": "Tutoriel magnifique tutoriel tutoriel tutoriel tutoriel sur l'IA.",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: it)",
+      "SEMANTIC_DRIFT (similarity: 0.292)",
+      "REPETITIVE_LOOP"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.362. Flags: WRONG_LANGUAGE (detected: it), SEMANTIC_DRIFT (similarity: 0.292), REPETITIVE_LOOP",
+    "created_at": "2026-09-11T17:40:58.624706"
+  },
+  {
+    "review_id": "781bb258",
+    "segment_id": "fault-wrong-lang-01",
+    "source_text": "The secret to growing your audience is consistency and quality.",
+    "translated_text": "The secret to growing your audience is consistency and quality.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:40:58.874827"
+  },
+  {
+    "review_id": "70d75adc",
+    "segment_id": "fault-wrong-lang-02",
+    "source_text": "Bienvenue à tous nos nouveaux créateurs sur la plateforme.",
+    "translated_text": "Welcome to all our new creators on the platform.",
+    "source_lang": "fr",
+    "target_lang": "ta",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)",
+      "SEMANTIC_DRIFT (similarity: 0.103)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.336. Flags: WRONG_LANGUAGE (detected: unknown), SEMANTIC_DRIFT (similarity: 0.103)",
+    "created_at": "2026-09-11T17:40:58.889789"
+  },
+  {
+    "review_id": "16a3f94b",
+    "segment_id": "fault-entity-corrupt-01",
+    "source_text": "Use code SAVE50 to get $50 off your order at https://incubrix.com/deal",
+    "translated_text": "छूट पाने के लिए कोड का उपयोग करें",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.112)",
+      "MISSING_ENTITIES:3"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.389. Flags: SEMANTIC_DRIFT (similarity: 0.112), MISSING_ENTITIES:3",
+    "created_at": "2026-09-11T17:40:59.054806"
+  },
+  {
+    "review_id": "605a8eee",
+    "segment_id": "fault-entity-corrupt-02",
+    "source_text": "Contact us at support@incubrix.com or call 1-800-555-0199.",
+    "translated_text": "Póngase en contacto con nosotros por correo electrónico.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "NLLB",
+    "qc_flags": [
+      "SEMANTIC_DRIFT (similarity: 0.143)",
+      "MISSING_ENTITIES:2"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.4. Flags: SEMANTIC_DRIFT (similarity: 0.143), MISSING_ENTITIES:2",
+    "created_at": "2026-09-11T17:41:03.561590"
+  },
+  {
+    "review_id": "f0219085",
+    "segment_id": "bench-hi-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.214840"
+  },
+  {
+    "review_id": "9c213df1",
+    "segment_id": "bench-hi-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.237207"
+  },
+  {
+    "review_id": "7d2cfb62",
+    "segment_id": "bench-hi-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.256145"
+  },
+  {
+    "review_id": "29d53f60",
+    "segment_id": "bench-hi-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.274638"
+  },
+  {
+    "review_id": "05cebbe5",
+    "segment_id": "bench-hi-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free क्रिएटर tips #growth",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.628. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.285916"
+  },
+  {
+    "review_id": "40472677",
+    "segment_id": "bench-es-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.557392"
+  },
+  {
+    "review_id": "846bc1d2",
+    "segment_id": "bench-es-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.570426"
+  },
+  {
+    "review_id": "a1a53081",
+    "segment_id": "bench-es-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.582487"
+  },
+  {
+    "review_id": "a23160b7",
+    "segment_id": "bench-es-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.593479"
+  },
+  {
+    "review_id": "72e95f16",
+    "segment_id": "bench-es-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free creador tips #growth",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.643. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.603571"
+  },
+  {
+    "review_id": "71d7f811",
+    "segment_id": "bench-ta-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.613102"
+  },
+  {
+    "review_id": "c2b186c9",
+    "segment_id": "bench-ta-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.623508"
+  },
+  {
+    "review_id": "fdf1c0bb",
+    "segment_id": "bench-ta-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.633981"
+  },
+  {
+    "review_id": "0f43031d",
+    "segment_id": "bench-ta-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.643898"
+  },
+  {
+    "review_id": "2d42a80c",
+    "segment_id": "bench-ta-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free படைப்பாளர் tips #growth",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.649. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.652964"
+  },
+  {
+    "review_id": "50bc3944",
+    "segment_id": "bench-de-0",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.664973"
+  },
+  {
+    "review_id": "5db742a3",
+    "segment_id": "bench-de-1",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.678258"
+  },
+  {
+    "review_id": "5f28a62c",
+    "segment_id": "bench-de-2",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.693213"
+  },
+  {
+    "review_id": "65048376",
+    "segment_id": "bench-de-3",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.710671"
+  },
+  {
+    "review_id": "7cd06fc0",
+    "segment_id": "bench-de-4",
+    "source_text": "Welcome to IncuBrix! Follow @channel for free creator tips #growth",
+    "translated_text": "Welcome to IncuBrix! Follow @channel for free Schöpfer tips #growth",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.62. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.725992"
+  },
+  {
+    "review_id": "455bf8ec",
+    "segment_id": "bench-hi-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.742372"
+  },
+  {
+    "review_id": "d3cfb2eb",
+    "segment_id": "bench-hi-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.757498"
+  },
+  {
+    "review_id": "bd82b83a",
+    "segment_id": "bench-hi-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.780037"
+  },
+  {
+    "review_id": "c293e09a",
+    "segment_id": "bench-hi-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.790048"
+  },
+  {
+    "review_id": "4e08523c",
+    "segment_id": "bench-hi-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital क्रिएटर needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.637. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.799539"
+  },
+  {
+    "review_id": "a122027e",
+    "segment_id": "bench-es-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.813491"
+  },
+  {
+    "review_id": "2558f19b",
+    "segment_id": "bench-es-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.827028"
+  },
+  {
+    "review_id": "87a69128",
+    "segment_id": "bench-es-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.841406"
+  },
+  {
+    "review_id": "62252ecf",
+    "segment_id": "bench-es-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.855249"
+  },
+  {
+    "review_id": "1629e480",
+    "segment_id": "bench-es-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital creador needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.667. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.869420"
+  },
+  {
+    "review_id": "78bb6ba7",
+    "segment_id": "bench-ta-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.879845"
+  },
+  {
+    "review_id": "860c296e",
+    "segment_id": "bench-ta-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.890686"
+  },
+  {
+    "review_id": "5ef45b0b",
+    "segment_id": "bench-ta-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.901169"
+  },
+  {
+    "review_id": "8ba9b07c",
+    "segment_id": "bench-ta-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.911453"
+  },
+  {
+    "review_id": "5564b7dd",
+    "segment_id": "bench-ta-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital படைப்பாளர் needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.647. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:32.923092"
+  },
+  {
+    "review_id": "9fb8f608",
+    "segment_id": "bench-de-0",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.937315"
+  },
+  {
+    "review_id": "6d981981",
+    "segment_id": "bench-de-1",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.951362"
+  },
+  {
+    "review_id": "93f3ee28",
+    "segment_id": "bench-de-2",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.966122"
+  },
+  {
+    "review_id": "d01765d3",
+    "segment_id": "bench-de-3",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.979606"
+  },
+  {
+    "review_id": "ae040167",
+    "segment_id": "bench-de-4",
+    "source_text": "In this video, we review 5 essential tools that every digital creator needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "translated_text": "In this video, we review 5 essential tools that every digital Schöpfer needs in 2026. Make sure to visit https://incubrix.com/tools before October 15.",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.656. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:32.994998"
+  },
+  {
+    "review_id": "e6c9f96c",
+    "segment_id": "bench-hi-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.006024"
+  },
+  {
+    "review_id": "90b35a96",
+    "segment_id": "bench-hi-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.016682"
+  },
+  {
+    "review_id": "e2ead755",
+    "segment_id": "bench-hi-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.028485"
+  },
+  {
+    "review_id": "831fd991",
+    "segment_id": "bench-hi-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.039056"
+  },
+  {
+    "review_id": "c449457b",
+    "segment_id": "bench-hi-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.053652"
+  },
+  {
+    "review_id": "437960d9",
+    "segment_id": "bench-es-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.070811"
+  },
+  {
+    "review_id": "3bfcfda1",
+    "segment_id": "bench-es-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.087855"
+  },
+  {
+    "review_id": "5b6bdd7b",
+    "segment_id": "bench-es-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.100322"
+  },
+  {
+    "review_id": "25af422f",
+    "segment_id": "bench-es-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.112237"
+  },
+  {
+    "review_id": "c7d7c79a",
+    "segment_id": "bench-es-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "es",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.122712"
+  },
+  {
+    "review_id": "b1435cbb",
+    "segment_id": "bench-ta-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.132599"
+  },
+  {
+    "review_id": "b5174d89",
+    "segment_id": "bench-ta-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.143792"
+  },
+  {
+    "review_id": "4a2af32d",
+    "segment_id": "bench-ta-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.154774"
+  },
+  {
+    "review_id": "e7ea127f",
+    "segment_id": "bench-ta-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.163538"
+  },
+  {
+    "review_id": "eea7f4ca",
+    "segment_id": "bench-ta-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: unknown)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.65. Flags: WRONG_LANGUAGE (detected: unknown)",
+    "created_at": "2026-09-11T17:41:33.174143"
+  },
+  {
+    "review_id": "d248f9ba",
+    "segment_id": "bench-de-0",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.185298"
+  },
+  {
+    "review_id": "0cbeb939",
+    "segment_id": "bench-de-1",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.196315"
+  },
+  {
+    "review_id": "9c3bd04d",
+    "segment_id": "bench-de-2",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.208491"
+  },
+  {
+    "review_id": "7dbec124",
+    "segment_id": "bench-de-3",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.219198"
+  },
+  {
+    "review_id": "95fcb464",
+    "segment_id": "bench-de-4",
+    "source_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "translated_text": "We crossed 1,500,000 subscribers and raised $25,000 for charity in 48 hrs with a 99.2% satisfaction rate!",
+    "source_lang": "en",
+    "target_lang": "de",
+    "model_used": "Mock",
+    "qc_flags": [
+      "WRONG_LANGUAGE (detected: en)"
+    ],
+    "suggested_action": "Review flagged segment. Confidence: 0.685. Flags: WRONG_LANGUAGE (detected: en)",
+    "created_at": "2026-09-11T17:41:33.231430"
+  }
+]

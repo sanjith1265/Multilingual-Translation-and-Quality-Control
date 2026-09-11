@@ -1,0 +1,121 @@
+{
+  "metrics": {
+    "total_evaluated": 10,
+    "true_positives": 8,
+    "true_negatives": 2,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0
+  },
+  "details": [
+    {
+      "id": "fault-empty-01",
+      "expected_fault": "EMPTY_OUTPUT",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.0,
+      "flags": [
+        "WRONG_LANGUAGE (detected: unknown)",
+        "SEMANTIC_DRIFT (similarity: 0.0)",
+        "EMPTY_OUTPUT"
+      ]
+    },
+    {
+      "id": "fault-empty-02",
+      "expected_fault": "EMPTY_OUTPUT",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.0,
+      "flags": [
+        "WRONG_LANGUAGE (detected: unknown)",
+        "SEMANTIC_DRIFT (similarity: 0.0)",
+        "EMPTY_OUTPUT"
+      ]
+    },
+    {
+      "id": "fault-repeat-01",
+      "expected_fault": "REPETITIVE_LOOP",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.628,
+      "flags": [
+        "SEMANTIC_DRIFT (similarity: 0.152)",
+        "REPETITIVE_LOOP"
+      ]
+    },
+    {
+      "id": "fault-repeat-02",
+      "expected_fault": "REPETITIVE_LOOP",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.362,
+      "flags": [
+        "WRONG_LANGUAGE (detected: it)",
+        "SEMANTIC_DRIFT (similarity: 0.292)",
+        "REPETITIVE_LOOP"
+      ]
+    },
+    {
+      "id": "fault-wrong-lang-01",
+      "expected_fault": "WRONG_LANGUAGE",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.65,
+      "flags": [
+        "WRONG_LANGUAGE (detected: unknown)"
+      ]
+    },
+    {
+      "id": "fault-wrong-lang-02",
+      "expected_fault": "WRONG_LANGUAGE",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.336,
+      "flags": [
+        "WRONG_LANGUAGE (detected: unknown)",
+        "SEMANTIC_DRIFT (similarity: 0.103)"
+      ]
+    },
+    {
+      "id": "fault-entity-corrupt-01",
+      "expected_fault": "MISSING_ENTITIES",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.389,
+      "flags": [
+        "SEMANTIC_DRIFT (similarity: 0.112)",
+        "MISSING_ENTITIES:3"
+      ]
+    },
+    {
+      "id": "fault-entity-corrupt-02",
+      "expected_fault": "MISSING_ENTITIES",
+      "should_pass": false,
+      "actual_pass": false,
+      "confidence": 0.4,
+      "flags": [
+        "SEMANTIC_DRIFT (similarity: 0.143)",
+        "MISSING_ENTITIES:2"
+      ]
+    },
+    {
+      "id": "clean-sample-01",
+      "expected_fault": null,
+      "should_pass": true,
+      "actual_pass": true,
+      "confidence": 0.821,
+      "flags": []
+    },
+    {
+      "id": "clean-sample-02",
+      "expected_fault": null,
+      "should_pass": true,
+      "actual_pass": true,
+      "confidence": 0.795,
+      "flags": []
+    }
+  ]
+}
